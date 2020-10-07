@@ -43,6 +43,10 @@
     <artifactId>encoder-parent</artifactId>
     <version>1.2.2</version>
     <packaging>pom</packaging>
+         <properties>
+    <maven.compiler.target>1.6</maven.compiler.target>
+    <maven.compiler.source>1.6</maven.compiler.source>
+</properties>
 
     <name>OWASP Java Encoder Project</name>
     <description>
