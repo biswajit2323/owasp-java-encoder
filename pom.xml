@@ -43,12 +43,7 @@
     <artifactId>encoder-parent</artifactId>
     <version>1.2.2</version>
     <packaging>pom</packaging>
-         <properties>
-    <maven.compiler.target>1.6</maven.compiler.target>
-    <maven.compiler.source>1.6</maven.compiler.source>
-</properties>
-
-    <name>OWASP Java Encoder Project</name>
+      <name>OWASP Java Encoder Project</name>
     <description>
         The OWASP Encoders package is a collection of high-performance low-overhead
         contextual encoders, that when utilized correctly, is an effective tool in
@@ -142,6 +137,8 @@
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+    <maven.compiler.target>1.6</maven.compiler.target>
+    <maven.compiler.source>1.6</maven.compiler.source>
     </properties>
 
     <dependencyManagement>
